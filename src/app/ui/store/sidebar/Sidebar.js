@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
 import styles from './sidebar.module.css'
+import { FcLike, FcLikePlaceholder, FcOrgUnit, FcOrganization } from 'react-icons/fc';
 const Sidebar = () => {
     const links = [
         {
@@ -52,7 +53,7 @@ const Sidebar = () => {
                 <div className="position-sticky pt-3">
                     <div className="card storeName mb-3">
                         <div className="card-body">
-                            <Link href={'/store/settings'} className='h4'>Store Name</Link>
+                            <Link href={'/store/settings'} className='h4'> Store Name</Link>
                         </div>
                     </div>
                     <ul className="nav flex-column">
