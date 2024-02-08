@@ -1,0 +1,11 @@
+.imageHolder{
+    height: 100px;
+    width: 100px;
+    overflow: hidden;    
+    margin: 2px;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 200px;
+}

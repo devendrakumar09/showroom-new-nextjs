@@ -1,0 +1,30 @@
+.thanks, .heading, .sub-heading1, .btn-green {
+	text-transform: uppercase;
+}
+
+.heading {
+	font-weight: bold;
+	font-size: 85px;
+	color: #ffffff;
+}
+
+.subHeading1 {
+	padding: 8px 0 8px 0;
+	margin-bottom: 2px;
+	color: #64FFDA;
+}
+
+.sub-heading2 {
+	padding: 0px 0 8px 0;
+	margin-bottom: 30px;
+	color: #9E9E9E;
+}
+
+.card {
+	padding: 8%;
+	padding-bottom: 20px;
+	padding-top: 20px;		
+	background-color: #263238;
+	border-radius: 10px;
+    color: #ffffff;
+}

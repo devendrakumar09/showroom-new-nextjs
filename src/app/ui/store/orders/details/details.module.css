@@ -1,0 +1,86 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+p {
+    margin: 0
+} */
+
+.container {    
+    background-color: #e8eaf6;
+    padding: 35px;
+}
+
+.boxRight {
+    padding: 30px 25px;
+    background-color: white;
+    border-radius: 15px
+}
+
+.boxLft {
+    padding: 20px 20px;
+    background-color: white;
+    border-radius: 15px
+}
+
+.textmuted {
+    color: #7a7a7a
+}
+
+
+.p-blue {
+    font-size: 14px;
+    color: #1976d2
+}
+
+.p-org {
+    font-size: 14px;
+    color: #fbc02d
+}
+
+.h7 {
+    font-size: 15px
+}
+
+.h8 {
+    font-size: 12px
+}
+
+.h9 {
+    font-size: 10px
+}
+
+
+.cursor {
+    cursor: pointer
+}
+
+
+
+
+.topContainer{
+	display: flex;
+	align-items: center;
+}
+.profileImage{
+	border-radius: 10px;
+	border: 2px solid #5957f9;
+}
+.name{
+	font-size: 15px;
+	font-weight: bold;
+	color: #272727;
+	position: relative;
+	top: 8px;
+}
+.mail{
+	font-size: 14px;
+	color: grey;
+	position: relative;
+	top: 2px;
+}
