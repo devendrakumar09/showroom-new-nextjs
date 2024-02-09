@@ -11,10 +11,10 @@ const Products = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <div class="container rounded bg-white p-2">              
+            <div class="container rounded bg-white p-2">
               <div class="d-flex justify-content-between m-2">
                 <div className="heading">
-                  <h5 className="text-uppercase">Products <Link href={'/store/products/add'}><FaCirclePlus className="ms-2"/></Link></h5>                  
+                  <h5 className="text-uppercase">Products <Link href={'/store/products/add'}><FaCirclePlus className="ms-2" /></Link></h5>
                 </div>
                 <div className="search">
                   <input type="text" name="search" id="" className="form-control w-100" placeholder="Search Products" />
@@ -31,10 +31,12 @@ const Products = () => {
                   <thead>
                     <tr>
                       <th scope="col">Title</th>
-                      <th scope="col">Date</th>
-                      <th scope="col">Time</th>
+                      <th scope="col">Order</th>
+                      <th scope="col">Stock</th>
+                      <th scope="col">Avalble</th>
+                      <th scope="col">Deliverd</th>
                       <th scope="col">Status</th>
-                      <th scope='col'>Others</th>
+                      <th scope='col'>Action</th>
                     </tr>
                   </thead>
                   <tbody>

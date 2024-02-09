@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import styles from './add.module.css'
+import Link from 'next/link'
+import { FaArrowLeft, FaCircleArrowLeft } from 'react-icons/fa6'
 const Add = () => {
   return (
     <>
@@ -11,7 +13,10 @@ const Add = () => {
           <div className="col-sm-8 border-line pb-3">
             <div className="card">
               <div className="p-5">
-                <h3 className="mb-4">Product Information</h3>
+                <h3 className="mb-4">
+                  <Link href={'/store/products'}><FaCircleArrowLeft className='me-2'></FaCircleArrowLeft></Link>
+                  Product Information
+                </h3>
 
                 <div className="mb-3">
                   <label className="form-label">Title</label>
@@ -77,21 +82,21 @@ const Add = () => {
                     </div>
                     {/* OTHER IMAGES */}
 
-                    <div className="col-sm-4">
+                    <div className="col-4">
                       <div className={styles.images + ' ' + "mt-2"}>
 
                         <button type='button'>Browse File</button>
                         <input type="file" hidden />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-4">
                       <div className={styles.images + ' ' + "mt-2"}>
 
                         <button type='button'>Browse File</button>
                         <input type="file" hidden />
                       </div>
                     </div>
-                    <div className="col-sm-4">
+                    <div className="col-4">
                       <div className={styles.images + ' ' + " mt-2"}>
 
                         <button type='button'>Browse File</button>

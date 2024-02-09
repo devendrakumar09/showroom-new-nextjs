@@ -17,7 +17,7 @@ const New = () => {
 
                         <div className="mb-3">
                             <label className="form-label">Description</label>
-                            <textarea className="form-control" placeholder='Title' ></textarea>
+                            <textarea className="form-control" placeholder='Description' ></textarea>
                         </div> 
                         
                         <div className="mb-3">
