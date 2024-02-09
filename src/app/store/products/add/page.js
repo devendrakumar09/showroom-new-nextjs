@@ -3,7 +3,9 @@ import AddNewProduct from '../../../ui/store/products/Add/Add'
 const AddNew = () => {
   return (
     <>
-        <AddNewProduct />
+      <div className="container">        
+          <AddNewProduct />        
+      </div>      
     </>
   )
 }

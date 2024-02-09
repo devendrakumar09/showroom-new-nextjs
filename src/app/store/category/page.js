@@ -42,7 +42,7 @@ const Category = () => {
           </div>
 
           <div className="col-sm-4">
-            <div className="addNewCategory sticky-top">
+            <div className="addNewCategory fixedPosition">
               <NewCategory />  
 
             </div>                    

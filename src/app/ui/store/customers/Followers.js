@@ -13,7 +13,10 @@ const Followers = () => {
                             <small>@username</small>
                         </div>
                     </div>
-                    <button className="btn btn-dark follow">Follow</button>
+                    <div className="buttons">
+                        <button className="btn btn-dark BUTTONS btn-sm me-1">Block</button>
+                        <button className="btn btn-dark BUTTONS btn-sm">Follow Back</button>
+                    </div>
                 </div>
             </div>
         </>

@@ -7,8 +7,8 @@ const Details = () => {
       <div className="card p-4">
 
 
-        <div className={styles.topContainer + ' '+ 'mb-4'}>
-          <img src="https://i.imgur.com/G1pXs7D.jpg" className={styles.profileImage +' '+'img-fluid'}  width="70" />
+        <div className={styles.topContainer + ' ' + 'mb-4'}>
+          <img src="https://i.imgur.com/G1pXs7D.jpg" className={styles.profileImage + ' ' + 'img-fluid'} width="70" />
           <div className="ms-3">
             <h5 className={styles.name}>Clarke Jeffery</h5>
             <p className={styles.mail}>clark@zmail.com</p>

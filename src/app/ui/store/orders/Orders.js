@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import styles from './orders.module.css'
+import { FaSquareArrowUpRight } from 'react-icons/fa6'
 
 const Orders = () => {
     return (
@@ -14,7 +15,7 @@ const Orders = () => {
                             <small className='text-sall text-muted'>@username</small>
                         </div>
                     </div>                    
-                    <Link href={'/store/orders/skajsdkaj'} className="btn btn-sm btn-dark follow">View</Link>
+                    <Link href={'/store/orders/skajsdkaj'} className="btn btn-sm follow"><FaSquareArrowUpRight className='icons' /></Link>
                 </div>
             </div>
         </>

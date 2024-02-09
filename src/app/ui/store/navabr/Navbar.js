@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaBell, FaCircleUser } from 'react-icons/fa6'
 
 const Navbar = () => {
   return (
     <>
 
-      <nav className="py-3 bg-light border-bottom shadow-sm bg-white mb-2">
+      <nav className="py-3 bg-light border-bottom shadow-sm bg-white mb-2 sticky-top">
         <div className="container d-flex flex-wrap">
           <ul className="nav me-auto">
             {/* <li className="nav-item"><a href="#" className="nav-link link-dark px-2 active" aria-current="page">Home</a></li> */}
@@ -15,8 +16,8 @@ const Navbar = () => {
             <li className="nav-item"><a href="#" className="nav-link link-dark px-2">About</a></li> */}
           </ul>
           <ul className="nav">
-            <li className="nav-item"><a href="#" className="nav-link link-dark px-2">Login</a></li>
-            <li className="nav-item"><a href="#" className="nav-link link-dark px-2">Sign up</a></li>
+            <li className="nav-item"><a href="#" className="nav-link link-dark px-2"><FaBell className='text-success h5'/></a></li>
+            <li className="nav-item"><a href="#" className="nav-link link-dark px-2"><FaCircleUser className='h5 ms-2 me-2' /></a></li>
           </ul>
         </div>
       </nav>      

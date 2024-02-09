@@ -2,40 +2,50 @@ import Link from 'next/link';
 import React from 'react'
 import styles from './sidebar.module.css'
 import { FcLike, FcLikePlaceholder, FcOrgUnit, FcOrganization } from 'react-icons/fc';
+import { FaGrip } from 'react-icons/fa6';
 const Sidebar = () => {
     const links = [
         {
             id: 1,
             title: 'Orders',
             link: "/store/orders",
-        }, 
+            // icon: <FaGrip className='me-1 sideicons' />,
+        },
         {
             id: 2,
             title: 'Category',
             link: "/store/category",
+            // icon: <FaGrip className='me-1 sideicons' />,
         },
 
         {
             id: 3,
             title: 'Products',
             link: "/store/products",
+            // icon: <FaGrip className='me-1 sideicons' />,
         },
-       
+
         {
             id: 3,
             title: 'Customers',
             link: "/store/customers",
+            // icon: <FaGrip className='me-1 sideicons' />,
+
         },
         {
             id: 4,
             title: 'Offers',
             link: "/store/offers",
+            // icon: <FaGrip className='me-1 sideicons' />,
+
         },
 
         {
             id: 5,
             title: 'Ask',
             link: "/store/ask",
+            // icon: <FaGrip className='me-1 sideicons' />,
+
         },
 
 
@@ -43,6 +53,8 @@ const Sidebar = () => {
             id: 6,
             title: 'Settings',
             link: "/store/settings",
+            // icon: <FaGrip className='me-1 sideicons' />,
+
         },
 
     ];
@@ -57,16 +69,17 @@ const Sidebar = () => {
                         </div>
                     </div>
                     <ul className="nav flex-column">
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/store">
-                                <span data-feather="home"></span>
+                        <li className="nav-item">                            
+                            <Link href={'/store'}>
+                            <FaGrip className='me-2' />
                                 Dashboard
-                            </a>
+                            </Link>
+
                         </li>
-                        {links.map(({ id, title, link }) => (
+                        {links.map(({ id, title, link, icon }) => (
                             <li className="nav-item" key={id}>
                                 <Link className="nav-link" href={link}>
-                                    <span data-feather="file"></span>
+                                    <span data-feather="file">{icon}</span>
                                     {title}
                                 </Link>
                             </li>

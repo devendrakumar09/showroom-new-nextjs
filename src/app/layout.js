@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'react-icons/fc'
+import 'react-icons/fa6';
 
 import './globals.css';
 
