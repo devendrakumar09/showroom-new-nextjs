@@ -6,14 +6,14 @@ const Details = () => {
   return (
 
     <>
-      <div class={styles.card}>
-        <div class="row g-0">
-          <div class="col-md-6 border-end">
-            <div class="d-flex flex-column justify-content-center">
-              <div class={styles.main_image}>
+      <div className={styles.card}>
+        <div className="row g-0">
+          <div className="col-md-6 border-end">
+            <div className="d-flex flex-column justify-content-center">
+              <div className={styles.main_image}>
                 <img src="https://i.imgur.com/TAzli1U.jpg" id="main_product_image" width="350" />
               </div>
-              <div class={styles.thumbnail_images}>
+              <div className={styles.thumbnail_images}>
                 <ul id="thumbnail">
                   <li><img onclick="changeImage(this)" src="https://i.imgur.com/TAzli1U.jpg" width="70" /></li>
                   <li><img onclick="changeImage(this)" src="https://i.imgur.com/w6kEctd.jpg" width="70" /></li>
@@ -22,12 +22,12 @@ const Details = () => {
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class={styles.right_side + ' ' + "ms-4"} >
-              <div class="d-flex justify-content-between align-items-center">
-                <h3>IIlana</h3> <span class="heart"><i class='bx bx-heart'></i></span>
+          <div className="col-md-6">
+            <div className={styles.right_side + ' ' + "ms-4"} >
+              <div className="d-flex justify-content-between align-items-center">
+                <h3>IIlana</h3> <span className="heart"><i className='bx bx-heart'></i></span>
               </div>
-              <div class={styles.content}>
+              <div className={styles.content}>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                   labore et dolore magna aliqua</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -38,8 +38,8 @@ const Details = () => {
 
               </div>
               <h3>$430.99</h3>
-              <div class={styles.ratings + ' ' + "d-flex flex-row align-items-center"}>
-                <div class="d-flex flex-row"> 
+              <div className={styles.ratings + ' ' + "d-flex flex-row align-items-center"}>
+                <div className="d-flex flex-row"> 
                   <FaStar />
                   <FaStar />                  
                   <FaStar />                  
@@ -47,8 +47,8 @@ const Details = () => {
                 </div>
                 <span>441 reviews</span>
               </div>
-              <div class="mt-5"> <span class="fw-bold">Color</span>
-                <div class={styles.colors}>
+              <div className="mt-5"> <span className="fw-bold">Color</span>
+                <div className={styles.colors}>
                   <ul id="marker">
                     <li id="marker-1"></li>
                     <li id="marker-2"></li>
@@ -58,9 +58,9 @@ const Details = () => {
                   </ul>
                 </div>
               </div>
-              <div class={styles.buttons + ' ' + "d-flex flex-row mt-5 gap-3"}>
-                <button class="btn btn-outline-dark">Buy Now</button>
-                <button class="btn btn-dark">Add to Basket</button> </div>
+              <div className={styles.buttons + ' ' + "d-flex flex-row mt-5 gap-3"}>
+                <button className="btn btn-outline-dark">Buy Now</button>
+                <button className="btn btn-dark">Add to Basket</button> </div>
             </div>
           </div>
         </div>

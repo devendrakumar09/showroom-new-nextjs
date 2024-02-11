@@ -6,9 +6,20 @@ const Cart = () => {
     <div className="container mt-4 mb-4">
         <div className="row">
             <div className="col-sm-7">
-                <CartUi />
+               <div className="row">
+                <div className="col-sm-12 col-6">
+                   <CartUi />
+                </div>
+                <div className="col-sm-12 col-6">
+                   <CartUi />
+                </div>
+                <div className="col-sm-12 col-6">
+                   <CartUi />
+                </div>
+
+               </div>
             </div>
-            <div className="col-sm-5">
+            <div className="col-sm-5 ">
                 <InvoiceUi />      
             </div>
         </div>

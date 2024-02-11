@@ -12,20 +12,20 @@ const Shop = () => {
         <div className="row">
 
           <div className="row mt-4 mb-4">
-            <h2 class="font-weight-bold mb-2">Top Store In Kanpur</h2>
-            <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+            <h2 className="font-weight-bold mb-2">Top Store In Kanpur</h2>
+            <p className="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
 
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
               <ShopProfile />
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
               <ShopProfile />
-            </div><div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            </div><div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
               <ShopProfile />
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+            <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
               <ShopProfile />
             </div>
           </div>

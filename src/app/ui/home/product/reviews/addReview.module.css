@@ -1,0 +1,38 @@
+
+
+.card {
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profile_pic {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: contain;
+    background-color: #E0E0E0;
+}
+
+.textarea {
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #616161;
+    border: 1px solid #F5F5F5;
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 120px !important;
+    width: 100%;
+}
+
+.textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00C853 !important;
+    outline-width: 0 !important;
+}
+

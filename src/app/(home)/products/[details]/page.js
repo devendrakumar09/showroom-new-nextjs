@@ -15,7 +15,7 @@ const Details = () => {
           <div className="col-sm-8">
             <Reviews />
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-4 sticky-top">
             <AddReview />
           </div>
         </div>

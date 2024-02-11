@@ -40,13 +40,6 @@ const Sidebar = () => {
 
         },
 
-        {
-            id: 5,
-            title: 'Ask',
-            link: "/store/ask",
-            // icon: <FaGrip className='me-1 sideicons' />,
-
-        },
 
 
         {
