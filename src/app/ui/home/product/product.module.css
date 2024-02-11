@@ -1,0 +1,84 @@
+.discBtn {
+    background-color: #21afa7;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+.small{
+    font-size: 11px;    
+}
+
+
+
+
+
+.like {
+    color: #757575;
+    font-weight: bold;
+    background-color: #EEEEEE;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 40px;
+    float: left;
+}
+
+.like-checked {
+    color: #E53935;
+}
+
+.like:hover {
+    color: #E53935;
+    cursor: pointer;
+}
+
+.pic1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.productPic {
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.productPic img {    
+    width: 100%;
+
+}
+
+
+
+.category {
+    padding-top: 25px;
+    color: grey;
+}
+
+.productName {
+    padding-bottom: 15px;
+    font-family: Florence;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 18px;
+}
+
+.sm-text {
+    font-size: 14px;
+}
+
+.fa-star {
+    color: #FF6F00;
+    cursor: pointer;
+}
+
+.fastaro {
+    color: #FF6F00;
+    cursor: pointer;
+}

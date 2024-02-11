@@ -1,6 +1,7 @@
 import React from 'react'
 import { FcAbout } from 'react-icons/fc'
 import CardUI from '../ui/store/dashboard/Card'
+import Welcome from '../ui/store/dashboard/Welcome/Welcome'
 
 const Dashboard = () => {
   return (
@@ -8,7 +9,7 @@ const Dashboard = () => {
     <div className="container">
       <div className="row">
         <div className="col-sm-6">
-          wether Card
+          <Welcome />
         </div>
         <div className="col-sm-6">
           <div className="row">

@@ -1,0 +1,16 @@
+
+.discount{
+	background-color: #1BC5DF;
+	border: none;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	padding: 5px 15px;
+	transform: translateX(24px);
+	height: 35px;
+}
+.discount span{
+	font-size: 15px;
+}
+.h2{
+	letter-spacing: 2px;
+}
