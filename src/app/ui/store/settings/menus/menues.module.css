@@ -1,0 +1,7 @@
+.recent_border{
+	border-left: 2px solid #5957f9;
+	display: flex;
+	align-items: center;
+    font-weight: bolder;
+
+}

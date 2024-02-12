@@ -1,3 +1,21 @@
+body{
+      background: #f0efe9;
+}
+
 a {
     text-decoration: none;
+}
+
+
+/* FORM STYLING */
+.form-control{
+   /* background-color: rgba(165, 147, 69, 0.075); */
+}
+
+.form-control:focus {
+    color: #495057;
+   
+    border-color: black !important;
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25) !important;
 }

@@ -13,7 +13,7 @@ const ProductNew = () => {
                     <img className="pic1" src="https://i.imgur.com/fP3NOTX.png" />
                 </div>
                 <div className="text px-3">
-                    <small className={styles.category}>Backpacks</small>
+                    <small className={styles.category +' '+ 'mark'}>Backpacks</small>
                     <h6 className={styles.productName}>
                         <Link href={'/products/dsahuydsa'}>TH Jeans City Backpack</Link>                        
                     </h6>

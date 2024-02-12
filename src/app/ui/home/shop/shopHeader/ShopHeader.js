@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './details.module.css'
-const Details = () => {
+import styles from './shopHeader.module.css'
+const ShopHeader = () => {
     return (
         <div className={styles.profileCard + ' ' + 'card p-3'}>
             <div className="align-items-center row ">
@@ -10,7 +10,7 @@ const Details = () => {
                 <div className="col-sm-8 text-center">
                     <h4 className="mb-0 mt-0">Alex HMorrision</h4>
                     <span>@username</span>
-                    <div className={styles.stats + ' ' + 'p-2 mt-2 d-flex justify-content-between rounded text-white'}>
+                    <div className={styles.stats + ' ' + 'p-3 mt-2 d-flex justify-content-between rounded text-white'}>
                         <div className="d-flex flex-column">
                             <span className={styles.articles}>Posts</span>
                             <span className={styles.number1}>38</span>
@@ -36,4 +36,4 @@ const Details = () => {
     )
 }
 
-export default Details
+export default ShopHeader

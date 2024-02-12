@@ -1,7 +1,7 @@
 import React from 'react'
 import DetailsUi from '@/app/ui/home/product/Details/Details'
-import Reviews from '@/app/ui/home/product/reviews/Reviews'
-import AddReview from '@/app/ui/home/product/reviews/AddReview'
+import Reviews from '@/app/ui/home/reviews/Reviews'
+import AddReview from '@/app/ui/home/reviews/AddReview'
 const Details = () => {
   return (
     <>

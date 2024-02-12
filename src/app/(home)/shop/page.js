@@ -1,5 +1,5 @@
 import Search from '@/app/ui/home/search/Search'
-import ShopProfile from '@/app/ui/home/shop/Shop/ShopProfile'
+import ShopProfile from '@/app/ui/home/shop/shopProfile/ShopProfile'
 import React from 'react'
 
 const Shop = () => {

@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../ui/home/header/Header'
 import ShopBanner from '../ui/home/baners/ShopBanner'
 import Categories from '../ui/home/categories/Categories'
-import ShopProfile from '../ui/home/shop/Shop/ShopProfile'
+import ShopProfile from '../ui/home/shop/shopProfile/ShopProfile'
 import Product from '../ui/home/product/Product'
 
 const Home = () => {
