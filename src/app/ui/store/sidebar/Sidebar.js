@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
 import styles from './sidebar.module.css'
-import { FcLike, FcLikePlaceholder, FcOrgUnit, FcOrganization } from 'react-icons/fc';
+import { FcAdvertising, FcBusinessman, FcFilledFilter, FcInTransit, FcLike, FcLikePlaceholder, FcList, FcOrgUnit, FcOrganization, FcSettings, FcShipped } from 'react-icons/fc';
 import { FaGrip } from 'react-icons/fa6';
 const Sidebar = () => {
     const links = [
@@ -9,34 +9,35 @@ const Sidebar = () => {
             id: 1,
             title: 'Orders',
             link: "/store/orders",
-            // icon: <FaGrip className='me-1 sideicons' />,
+            icon: <FcShipped className='me-2 sideicons' />,
+
         },
         {
             id: 2,
             title: 'Category',
             link: "/store/category",
-            // icon: <FaGrip className='me-1 sideicons' />,
+            icon: <FcFilledFilter className='me-2 sideicons' />,
         },
 
         {
             id: 3,
             title: 'Products',
             link: "/store/products",
-            // icon: <FaGrip className='me-1 sideicons' />,
+            icon: <FcList className='me-2 sideicons' />,
         },
 
         {
             id: 3,
             title: 'Customers',
             link: "/store/customers",
-            // icon: <FaGrip className='me-1 sideicons' />,
+            icon: <FcBusinessman className='me-2 sideicons' />,
 
         },
         {
             id: 4,
             title: 'Offers',
             link: "/store/offers",
-            // icon: <FaGrip className='me-1 sideicons' />,
+            icon: <FcAdvertising className='me-2 sideicons' />,
 
         },
 
@@ -46,7 +47,7 @@ const Sidebar = () => {
             id: 6,
             title: 'Settings',
             link: "/store/settings",
-            // icon: <FaGrip className='me-1 sideicons' />,
+            icon: <FcSettings className='me-2 sideicons' />,
 
         },
 
@@ -63,7 +64,7 @@ const Sidebar = () => {
                     </div>
                     <ul className="nav flex-column">
                         <li className="nav-item">                            
-                            <Link href={'/store'}>
+                            <Link className='nav-link active' href={'/store'}>
                             <FaGrip className='me-2' />
                                 Dashboard
                             </Link>
@@ -79,13 +80,13 @@ const Sidebar = () => {
                         ))}
                     </ul>
 
-                    <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    {/* <h6 className="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
                         <span>Saved reports</span>
                         <a className="link-secondary" href="#" aria-label="Add a new report">
                             <span data-feather="plus-circle"></span>
                         </a>
-                    </h6>
-                    <ul className="nav flex-column mb-2">
+                    </h6> */}
+                    {/* <ul className="nav flex-column mb-2">
                         <li className="nav-item">
                             <a className="nav-link" href="#">
                                 <span data-feather="file-text"></span>
@@ -110,7 +111,7 @@ const Sidebar = () => {
                                 Year-end sale
                             </a>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
             </nav>
 

@@ -9,8 +9,7 @@ const Products = () => {
                 <td className="pt-2">
                     <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className={styles.img + ' ' + "rounded-circle"} alt="" />
                     <div className={styles.name + ' ' + "ps-2"}>
-                    <Link href={'/store/products/sdjiushd'}> Emilia Kollette</Link>
-                       
+                            <Link href={'/store/products/sdjiushd'}> Emilia Kollette</Link>                       
                     </div>
                 </td>
                 <td className="pt-3 mt-1">25 Sep 2020</td>

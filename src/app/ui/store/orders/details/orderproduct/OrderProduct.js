@@ -14,11 +14,11 @@ const OrderProduct = () => {
                             <h6 className="font-weight-bold my-2">$120.00</h6>
                             <ul className="list-inline small">
                                 <li className="list-inline-item m-1">                                    
-                                    <button className='btn btn-dark btn-sm'>Cancle</button>
+                                    <button className='btn btn-outline-dark btn-sm'>Cancle</button>
                                 </li>
 
                                 <li className="list-inline-item m-1">                                    
-                                    <button className='btn btn-dark btn-sm'>Accept</button>
+                                    <button className='btn btn-outline-primary btn-sm'>Accept</button>
                                 </li>
                             </ul>
                         </div>

@@ -7,17 +7,7 @@ const CreateUi = () => {
 
             <div class="card card0 border-0">
                 <div class="row d-flex">
-                    <div class="col-lg-4">
-                        <div class="card1 pb-5">
-                            {/* <div class="row px-3">
-                                <h5 class="logo"><u>izylearning</u></h5>
-                            </div> */}
-                            <div class="row px-3 justify-content-center mt-4 mb-5">
-                                <div class="bgimage border" style={{height:'100%', width:'100vh', overflow:'hidden'}} >
-                                    <img src={'/home/images/2.jpg'} alt='sdadsa' style={{height:'100%', width:'100%'}} />
-                                </div>
-                            </div>                            
-                        </div>
+                    <div class="col-lg-4 d-sm-none d-md-block" style={{background:'url(/home/images/2.jpg)', backgroundPosition:'center center', backgroundSize:'cover'}}>                        
                     </div>
                     <div class="col-lg-8">
                         <div class="card2 card border-0 px-4 px-sm-5 py-5">

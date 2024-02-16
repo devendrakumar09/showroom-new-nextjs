@@ -32,8 +32,11 @@ const Add = () => {
                             <label className={styles.labels + ' ' + 'form-label'}>Minimum order</label>
                             <input type="text" className="form-control" />
                         </div>
+                        <div className="col-sm-12">
+                            <button className="btn btn-primary w-100">Publish</button>
+                        </div>
                     </div>
-                    <a href="#" className="btn btn-dark">Publish</a>
+                    
                 </div>
             </div>
         </>

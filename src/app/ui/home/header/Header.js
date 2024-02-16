@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <>
 
-            <section className={styles.bg} style={{background: 'url(/home/banners/3.png)'}}>
+            <section className={styles.bg} style={{background: 'url(/home/images/banner2.jpg)'}}>
                 <div className="container py-5">
                     <div className="row py-lg-5">
                         <div className="col-lg-6">

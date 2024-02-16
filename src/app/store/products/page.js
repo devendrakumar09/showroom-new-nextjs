@@ -20,7 +20,7 @@ const Products = () => {
                   <input type="text" name="search" id="" className="form-control w-100" placeholder="Search Products" />
                 </div>
                 <div className="filters">
-                  sdfsdf
+                  <button className="btn btn-primary btn-sm">Filter</button>
                 </div>
               </div>
 

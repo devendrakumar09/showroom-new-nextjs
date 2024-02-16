@@ -38,7 +38,7 @@ const Invoice = () => {
         </div>
       </div>  
 
-      <button className='btn btn-dark'> Print</button>
+      <button className='btn btn-primary'> Print</button>
       
     </div>
   )

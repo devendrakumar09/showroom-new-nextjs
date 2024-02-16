@@ -3,7 +3,7 @@ body {
   /* background-color: #eee;   */
   /* background-color: #FAF5F8; */
    background-color: #f6f9fb;
-     background: #eef0f4;
+  background: #eef0f4;
 }
 
 
@@ -28,6 +28,10 @@ body {
 
 }
 
+.sideicons{
+  font-size: 20px;
+}
+
 @media (max-width: 767.98px) {
   .sidebar {
     top: 5rem;
@@ -46,7 +50,18 @@ body {
 .sidebar .nav-link {
   font-weight: 500;
   color: #333;
-  /* color: white; */
+  /* color: white; */  
+  margin-top: 5px;
+  padding: 15px; 
+}
+.sidebar .active { 
+  border: 2px solid white;
+  border-right: none;
+  box-shadow: 1px 0px 5px 0px #eef0f4;
+  margin-top: 5px;
+  padding: 15px;
+  background: #eef0f4;
+  border-radius:  100px 0px 0px 100px ;
 }
 
 .sidebar .nav-link .feather {

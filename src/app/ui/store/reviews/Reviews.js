@@ -16,7 +16,7 @@ const Reviews = () => {
             </div>
           </div>
           <div className="buttons">
-            <button className="btn btn-dark BUTTONS btn-sm me-1">Dell</button>            
+            <button className="btn btn-outline-dark btn-sm me-1">Dell</button>            
           </div>
         </div>        
       </div>

@@ -15,7 +15,7 @@ const Orders = () => {
                             <small className='text-sall text-muted'>@username</small>
                         </div>
                     </div>                    
-                    <Link href={'/store/orders/skajsdkaj'} className="btn btn-sm btn-dark follow">View</Link>
+                    <Link href={'/store/orders/skajsdkaj'} className="btn btn-sm btn-outline-primary follow">View</Link>
                 </div>
             </div>
         </>
