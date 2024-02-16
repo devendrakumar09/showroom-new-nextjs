@@ -1,6 +1,9 @@
 body {
   font-size: .875rem;
-  background-color: #eee;  
+  /* background-color: #eee;   */
+  /* background-color: #FAF5F8; */
+   background-color: #f6f9fb;
+     background: #eef0f4;
 }
 
 
@@ -20,6 +23,9 @@ body {
   z-index: 100; /* Behind the navbar */
   padding: 10px 0 0; /* Height of navbar */
   box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+  /* background-color: #774AFF; */
+  background-color: white;
+
 }
 
 @media (max-width: 767.98px) {
@@ -40,6 +46,7 @@ body {
 .sidebar .nav-link {
   font-weight: 500;
   color: #333;
+  /* color: white; */
 }
 
 .sidebar .nav-link .feather {

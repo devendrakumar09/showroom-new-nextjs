@@ -1,4 +1,14 @@
 .background{
     /* background-color: #1A55A3;   */
-    color: white;
+    /* background-color: #774AFF; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.background .nav-link {
+  font-weight: 500;
+  color: #333;
+  color: white;
+  color: black;
 }

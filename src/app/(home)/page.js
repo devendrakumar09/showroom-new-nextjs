@@ -7,6 +7,48 @@ import ShopProfile from '../ui/home/shop/shopProfile/ShopProfile'
 import Product from '../ui/home/product/Product'
 
 const Home = () => {
+  const categoriesArr = [
+    {
+      id: 1,
+      title: 'food and beverage',
+      images: "/store/orders",
+      link: 'shop/category/koaksdop',
+    },
+    {
+      id: 2,
+      title: 'Fashion',
+      images: "/store/orders",
+      link: 'shop/category/koaksdop',
+    },
+    {
+      id: 3,
+      title: 'Electronics',
+      images: "/store/orders",
+      link: 'shop/category/koaksdop',
+    },
+    {
+      id: 4,
+      title: 'Grocery/Supermarket',
+      images: "/store/orders",
+
+      link: 'shop/category/koaksdop',
+    },
+    {
+      id: 5,
+      title: 'Electronics',
+      images: "/store/orders",
+
+      link: 'shop/category/koaksdop',
+    },
+    {
+      id: 6,
+      title: 'Electronics',
+      images: "/store/orders",
+
+      link: 'shop/category/koaksdop',
+    },
+  ];
+
   return (
     <>
       <div className="container-flude">
@@ -43,7 +85,7 @@ const Home = () => {
         {/* SHOP CATEGORIES */}
         <div className="row">
           <div class="mb-8 text-center">
-            <h2 class="display-4 mb-3 fw-bold">Shop Product Via Category</h2>
+            <h2 class="display-4 mb-3 fw-bold text-uppercase">Store </h2>
             <p class="lead mb-4">Everything you need to design like a
               professional. Boost you and your team s
               creativity and supercharge your productivity with Geeks UI Pro.</p>
@@ -51,32 +93,15 @@ const Home = () => {
           <div class="row">
             <div class="offset-xl-2 col-xl-8 offset-lg-1 col-lg-10 col-md-12 col-12">
               <div class="row">
-                <div class="col-lg-3 col-md-4 col-6">
-                  <Categories />
-                </div>
 
-                <div class="col-lg-3 col-md-4 col-6">
-                  <Categories />
-                </div><div class="col-lg-3 col-md-4 col-6">
-                  <Categories />
-                </div>
 
-                <div class="col-lg-3 col-md-4 col-6">
-                  <Categories />
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                  <Categories />
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                  <Categories />
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                  <Categories />
-                </div>
-                <div class="col-lg-3 col-md-4 col-6">
-                  <Categories />
-                </div>
-
+                {categoriesArr.map(({ id, title, link, icon }) => (
+                  <div class="col-lg-3 col-md-4 col-6" key={id}>
+                    <Link className="nav-link" href={link}>                      
+                      <Categories title={title} />
+                    </Link>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const Welcome = () => {
   return (
     <>
-      <div class="card p-5">
+      <div class="card p-5" style={{background:'url(/dashboard/backgrounds/1.png)'}}>
         <div class="text-end">
           <h5 className='bd-highlight'>Monday</h5>
           <h1 className='bd-highlight'>10:14 

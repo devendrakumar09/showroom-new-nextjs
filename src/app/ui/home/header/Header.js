@@ -1,10 +1,10 @@
 import React from 'react'
-
+import styles from './header.module.css'
 const Header = () => {
     return (
         <>
 
-            <section className="py-5 bg-light">
+            <section className={styles.bg} style={{background: 'url(/home/banners/3.png)'}}>
                 <div className="container py-5">
                     <div className="row py-lg-5">
                         <div className="col-lg-6">

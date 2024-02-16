@@ -6,17 +6,17 @@ import Users from '@/app/ui/store/user/users/Users'
 
 
 
-const Followers = () => {
+const Customers = () => {
   return (
     <>
       <div className="container">
         <div className="row d-flex" >
-          <div className="col-sm-8">            
+          <div className="col-sm-7">            
             <div className="mt-1">
               <Users />  <Users />  <Users />  <Users />  <Users />  <Users />  <Users />  <Users />  <Users />  <Users />  <Users />
             </div>
           </div>
-          <div className="col-sm-4 ">
+          <div className="col-sm-5 ">
             <div className="userProfile sticky-top">
               <UserProfile />
             </div>
@@ -28,4 +28,4 @@ const Followers = () => {
   )
 }
 
-export default Followers
+export default Customers

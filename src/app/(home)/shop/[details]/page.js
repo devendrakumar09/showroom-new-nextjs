@@ -3,6 +3,8 @@ import HeaderUi from '@/app/ui/home/shop/shopHeader/ShopHeader'
 import Categories from '@/app/ui/home/categories/Categories'
 import Product from '@/app/ui/home/product/Product'
 import AddReview from '@/app/ui/home/reviews/AddReview'
+import MenuUI from '@/app/ui/home/shop/menu/Memu'
+import Reviews from '@/app/ui/home/reviews/Reviews'
 const Details = () => {
   return (
     <>
@@ -12,6 +14,8 @@ const Details = () => {
             <div className="col-sm-12">
               <HeaderUi />
             </div>
+
+
 
             {/* SHOP CATEGORIES */}
             <div className="row mt-4">
@@ -23,13 +27,22 @@ const Details = () => {
                 </div>
                 <div className="col-sm-8">
                   <div className="row">
+                    <div className="col-sm-12 mb-4 bg-white p-2">
+                      <MenuUI title='Home' />
+                      <MenuUI title='Products' />
+                      <MenuUI title='Ratings' />
+                      <MenuUI title='Followings' />
+                      <MenuUI title='Customers' />
+                      <MenuUI title='About' />
+                    </div>
                     <div className="col-lg-3 col-md-4 col-6">
                       <Categories />
                     </div>
 
                     <div className="col-lg-3 col-md-4 col-6">
                       <Categories />
-                    </div><div className="col-lg-3 col-md-4 col-6">
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
                       <Categories />
                     </div>
 
@@ -53,26 +66,61 @@ const Details = () => {
                 </div>
               </div>
 
-              
+
             </div>
 
-            {/* Products */}
-            <div className="row justify-content-center mb-4">
-              <h2 className="font-weight-bold mb-2 mt-4">Top Tranding Product</h2>
-              <p className="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-              
-              <div className="col-6 col-md-3 col-sm-6 col-xs-6">
-                <Product />
+            
+            <div className="row mb-4">
+              {/* Products */}
+
+              <div className="col-sm-7">
+                <h4 className="font-weight-bold mb-2">Top Tranding Product</h4>
+
+                <div className="row">
+                  <div className="col-6 col-md-4 col-sm-6 col-xs-6">
+                    <Product />
+                  </div>
+                  <div className="col-6 col-md-4 col-sm-6 col-xs-6">
+                    <Product />
+                  </div>
+                  <div className="col-6 col-md-4 col-sm-6 col-xs-6">
+                    <Product />
+                  </div>             
+                  
+                  <div className="col-6 col-md-4 col-sm-6 col-xs-6">
+                    <Product />
+                  </div>      
+
+                  <div className="col-6 col-md-4 col-sm-6 col-xs-6">
+                    <Product />
+                  </div> 
+
+                  <div className="col-6 col-md-4 col-sm-6 col-xs-6">
+                    <Product />
+                  </div> 
+                </div>
               </div>
 
-              <div className="col-6 col-md-3 col-sm-6 col-xs-6">
-                <Product />
-              </div> <div className="col-6 col-md-3 col-sm-6 col-xs-6">
-                <Product />
-              </div>
-
-              <div className="col-6 col-md-3 col-sm-6 col-xs-6">
-                <Product />
+              {/* STORE RATINGS */}
+              <div className="col-sm-5 store-rating">
+                <h4 className="h4 ">Store Ratings</h4>
+                <div className="row">
+                  <div className="col-sm-12 mx-auto">
+                    <Reviews />
+                  </div>
+                  <div className="col-sm-12 mx-auto">
+                    <Reviews />
+                  </div>
+                  <div className="col-sm-12 mx-auto">
+                    <Reviews />
+                  </div>
+                  <div className="col-sm-12 mx-auto">
+                    <Reviews />
+                  </div>
+                  <div className="col-sm-12 mx-auto">
+                    <Reviews />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
