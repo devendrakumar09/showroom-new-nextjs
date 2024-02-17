@@ -1,13 +1,8 @@
 
-
-
-.login,
-.image {
-  min-height: 100vh;
+.bg{
+  background-position: center !important; /* Center the image */
+  background-repeat: no-repeat !important;  /* Do not repeat the image */
+  background-size: cover !important; /* Resize the background image to cover the entire container */
+  overflow: hidden;
 }
 
-.bg-image {
-  
-  background-size: cover;
-  background-position: center center;
-}

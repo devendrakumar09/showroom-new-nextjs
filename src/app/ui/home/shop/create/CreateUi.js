@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
-
+import styles from './create.module.css'
+import Link from 'next/link'
 const CreateUi = () => {
     return (
         <>
 
             <div class="card card0 border-0">
                 <div class="row d-flex">
-                    <div class="col-lg-4 d-sm-none d-md-block" style={{background:'url(/home/images/2.jpg)', backgroundPosition:'center center', backgroundSize:'cover'}}>                        
+                    <div class={styles.bg +' '+"col-lg-4 d-sm-none d-md-block"} style={{background:'url(/home/images/8.png)'}}>                        
                     </div>
                     <div class="col-lg-8">
                         <div class="card2 card border-0 px-4 px-sm-5 py-5">
@@ -28,7 +29,7 @@ const CreateUi = () => {
                                 </div>
 
                                 <div className="text-end">
-                                    <button type="submit" class="btn btn-dark btn-sn text-uppercase mb-2 shadow-sm">Next</button>
+                                    <Link href={'/store/settings'} class="btn btn-dark btn-sn text-uppercase mb-2 shadow-sm">Next</Link>
 
                                 </div>
                             </form>
