@@ -26,14 +26,14 @@ const CreateUi = () => {
 
                                 <div class="form-group mb-2 ">
                                     <div class="input-group p-0 shadow-sm">
-                                        <input type="text" placeholder="Search ..." class="form-control p-3" id="reservationDate" />
+                                        <input type="text" placeholder="Title ..." class="form-control p-3" id="reservationDate" />
                                         {/* <div class="input-group-append"><span class="input-group-text px-4"><i class="fa fa-clock-o"></i></span></div> */}
                                     </div>
                                 </div>
 
                                 <div class="form-group mb-2">
                                     <div class="input-group p-0 shadow-sm">
-                                        <input type="text" placeholder="Search ..." class="form-control p-3" id="reservationDate" />
+                                        <textarea  placeholder="Description ..." class="form-control p-3" ></textarea>
                                         {/* <div class="input-group-append"><span class="input-group-text px-4"><i class="fa fa-clock-o"></i></span></div> */}
                                     </div>
                                 </div>              <div className="text-end">

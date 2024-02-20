@@ -1,9 +1,18 @@
+'use client';
+
 import Link from 'next/link';
 import React from 'react'
 import styles from './sidebar.module.css'
 import { FcAdvertising, FcBusinessman, FcFilledFilter, FcInTransit, FcLike, FcLikePlaceholder, FcList, FcOrgUnit, FcOrganization, FcSettings, FcShipped } from 'react-icons/fc';
 import { FaGrip } from 'react-icons/fa6';
+import { useParams, usePathname, useRouter } from 'next/navigation';
+
+
+
 const Sidebar = () => {
+    const router = useRouter()
+    const pathname = usePathname()
+    const isActive = (href) => router.pathname === href;    
     const links = [
         {
             id: 1,
@@ -59,20 +68,20 @@ const Sidebar = () => {
                 <div className="position-sticky pt-3">
                     <div className="card storeName mb-3">
                         <div className="card-body">
-                            <Link href={'/store/settings'} className='h4'> Store Name</Link>
+                            <Link href={'/'} className='h4'>The Bazaar</Link>
                         </div>
                     </div>
                     <ul className="nav flex-column">
                         <li className="nav-item">                            
-                            <Link className='nav-link active' href={'/store'}>
+                            <Link className={pathname == '/store' ? 'nav-link active' : 'nav-link'} href={'/store'}>
                             <FaGrip className='me-2' />
-                                Dashboard
+                                Dashboard 
                             </Link>
 
                         </li>
                         {links.map(({ id, title, link, icon }) => (
                             <li className="nav-item" key={id}>
-                                <Link className="nav-link" href={link}>
+                                <Link className={pathname == link ? 'nav-link active' : 'nav-link'} href={link}>
                                     <span data-feather="file">{icon}</span>
                                     {title}
                                 </Link>

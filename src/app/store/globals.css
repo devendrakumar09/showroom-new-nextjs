@@ -53,6 +53,7 @@ body {
   /* color: white; */  
   margin-top: 5px;
   padding: 15px; 
+   border: 2px solid white;
 }
 .sidebar .active { 
   border: 2px solid white;
