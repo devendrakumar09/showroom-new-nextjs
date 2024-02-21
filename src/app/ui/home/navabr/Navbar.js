@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
 
-      <nav className={styles.bg + ' ' + "py-3  border-bottom shadow-sm  text-white sticky-top"}>
+      <nav className={styles.bg + ' ' + "py-2 border-bottom shadow-sm  text-white sticky-top"}>
         <div className="container d-flex flex-wrap text-white">
           <ul className="nav me-auto">
             <li className="nav-item">
@@ -19,7 +19,9 @@ const Navbar = () => {
           </ul>
           <ul className="nav">            
             <li className="nav-item">
-              <Link href={'/profile'} className="nav-link link-dark px-2"><FaCircleUser className='h4'/></Link>
+              <Link href={'/profile'} className="nav-link link-dark px-2">
+                <Image src={'/home/profile.svg'} height={40} width={40} alt='profile' className='' />
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,10 +1,10 @@
+'use client';
 import React from "react";
-import styles from '@/app/ui/store/products/products.module.css'
 import ProductUi from '@/app/ui/store/products/Products'
-import { BsSearch } from "react-icons/bs";
 import Dropdown from 'react-bootstrap/Dropdown';
 import { FaCirclePlus } from "react-icons/fa6";
 import Link from "next/link";
+
 const Products = () => {
   return (
     <>
@@ -20,7 +20,18 @@ const Products = () => {
                   <input type="text" name="search" id="" className="form-control w-100" placeholder="Search Products" />
                 </div>
                 <div className="filters">
-                  <button className="btn btn-primary btn-sm">Filter</button>
+
+                  <Dropdown>
+                    <Dropdown.Toggle variant="dark btn-sm" id="dropdown-basic">
+                      Filter
+                    </Dropdown.Toggle>
+
+                    <Dropdown.Menu>
+                      <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                      <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                      <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
                 </div>
               </div>
 

@@ -9,10 +9,8 @@ import { useParams, usePathname, useRouter } from 'next/navigation';
 
 
 
-const Sidebar = () => {
-    const router = useRouter()
-    const pathname = usePathname()
-    const isActive = (href) => router.pathname === href;    
+const Sidebar = () => {    
+    const pathname = usePathname()     
     const links = [
         {
             id: 1,

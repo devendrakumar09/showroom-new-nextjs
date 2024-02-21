@@ -1,7 +1,8 @@
 import React from 'react'
 import Sidebar from '../ui/store/sidebar/Sidebar'
 import './globals.css'
-import Navbar from '../ui/store/navabr/Navbar'
+import HeaderNavbar from '../ui/store/navabr/HeaderNavbar'
+
 
 function Layout({ children }) {
   return (
@@ -10,8 +11,8 @@ function Layout({ children }) {
         <div className="row">
         <Sidebar />
 
-          <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4 mt-4">
-           {/* <Navbar /> */}
+          <main className="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+          <HeaderNavbar />
             {children}            
           </main>
         </div>
@@ -22,5 +23,6 @@ function Layout({ children }) {
     </>
   )
 }
+
 
 export default Layout

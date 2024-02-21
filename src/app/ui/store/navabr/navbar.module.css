@@ -1,6 +1,5 @@
-.background{
-    /* background-color: #1A55A3;   */
-    /* background-color: #774AFF; */
-    background-color: white;
-    border-radius: 7px;
+.bg{
+    /* background: #F50057; */
+    background: white;
+    color: white;
 }
