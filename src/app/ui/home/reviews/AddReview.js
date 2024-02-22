@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './addReview.module.css'
+import { BsStar } from 'react-icons/bs'
 const AddReview = () => {
   return (
     <>
@@ -15,8 +16,14 @@ const AddReview = () => {
           <textarea className={styles.textarea + ' ' + "text-muted bg-light mt-4 mb-3"} placeholder="Hi Camilla, what's on your mind today?"></textarea>
         </div>
         <div className="row px-3">
-          <input type="range" name="" id="" step={1} max={5} min={0} />
-          <div className="btn btn-success ml-auto">Post</div>
+          <div className="d-flex justify-content-between">
+            <BsStar className='StarIcon' />
+            <BsStar className='StarIcon' />
+            <BsStar className='StarIcon' />
+            <BsStar className='StarIcon' />
+            <BsStar className='StarIcon' />
+          </div>
+          <div className="btn btn-success ml-auto mt-3">Post</div>
         </div>
       </div>
     </>

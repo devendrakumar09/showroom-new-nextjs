@@ -3,7 +3,7 @@ import React from 'react'
 
 const ShopBanner = () => {
     return (
-        <div className="pricing7 py-5">
+        <div className="pricing7 py-5 card">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-8 text-center">

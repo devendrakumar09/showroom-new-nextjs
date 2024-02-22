@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { FaArrowLeft, FaCircleArrowLeft } from 'react-icons/fa6'
 const Add = () => {
   return (
-    <>
+    <> 
 
 
       <div className="form">

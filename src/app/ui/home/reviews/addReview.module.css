@@ -20,8 +20,8 @@
     padding: 15px 20px;
     border-radius: 10px;
     box-sizing: border-box;
-    color: #616161;
-    border: 1px solid #F5F5F5;
+    color: black;
+    border: 1px solid black;
     font-size: 16px;
     letter-spacing: 1px;
     height: 120px !important;
@@ -32,7 +32,7 @@
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-    border: 1px solid #00C853 !important;
+    border: 1px solid black !important;
     outline-width: 0 !important;
 }
 

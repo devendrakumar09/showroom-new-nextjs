@@ -14,12 +14,10 @@ const Followings = () => {
             <Users />
             <Users />
             <Users />
-            <Users /><Users />
-            
             <Users />
             <Users />
             <Users />
-
+            <Users />
             <Users />
             <Users />
             <Users />
