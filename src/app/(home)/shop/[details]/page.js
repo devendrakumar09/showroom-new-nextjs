@@ -11,9 +11,7 @@ const Details = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <div className="col-sm-12">
-              <HeaderUi />
-            </div>
+
 
 
 
@@ -27,14 +25,6 @@ const Details = () => {
                 </div>
                 <div className="col-sm-8">
                   <div className="row">
-                    <div className="col-sm-12 mb-4 bg-white p-2">
-                      <MenuUI title='Home' />
-                      <MenuUI title='Products' />
-                      <MenuUI title='Ratings' />
-                      <MenuUI title='Followings' />
-                      <MenuUI title='Customers' />
-                      <MenuUI title='About' />
-                    </div>
                     <div className="col-lg-3 col-md-4 col-6">
                       <Categories />
                     </div>
@@ -69,7 +59,7 @@ const Details = () => {
 
             </div>
 
-            
+
             <div className="row mb-4">
               {/* Products */}
 
@@ -85,19 +75,19 @@ const Details = () => {
                   </div>
                   <div className="col-6 col-md-4 col-sm-6 col-xs-6">
                     <Product />
-                  </div>             
-                  
-                  <div className="col-6 col-md-4 col-sm-6 col-xs-6">
-                    <Product />
-                  </div>      
+                  </div>
 
                   <div className="col-6 col-md-4 col-sm-6 col-xs-6">
                     <Product />
-                  </div> 
+                  </div>
 
                   <div className="col-6 col-md-4 col-sm-6 col-xs-6">
                     <Product />
-                  </div> 
+                  </div>
+
+                  <div className="col-6 col-md-4 col-sm-6 col-xs-6">
+                    <Product />
+                  </div>
                 </div>
               </div>
 

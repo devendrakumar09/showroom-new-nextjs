@@ -6,11 +6,11 @@ import Footer from '../ui/home/footer/Footer';
 function Layout({children, Component, pageProps }) {
   return (
     <>
-      <div className="main ">
+      <main >
           <Navbar />    
           {children}
           <Footer />                   
-      </div>
+      </main>
     </>
   )
 }
