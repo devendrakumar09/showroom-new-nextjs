@@ -4,7 +4,7 @@ import { BsStar } from 'react-icons/bs'
 const Rating = () => {
     return (
         <>
-            <div className={styles.content +''+ 'text-center'}>
+            <div className='card'>
                 <div className={styles.ratings}>
                     <span className={styles.productRating}>4.6</span><span>/5</span>
                     <div className={styles.stars}>

@@ -6,7 +6,7 @@ import { FaSquareArrowUpRight } from 'react-icons/fa6'
 const Orders = () => {
     return (
         <>
-            <div className='card p-3 border'>
+            <div className='card p-3 '>
                 <div className="d-flex justify-content-between align-items-center">
                     <div className="d-flex flex-row text-center">
                         <img src="https://i.imgur.com/G1pXs7D.jpg" className={styles.profileImage +' '+'img-fluid'}  width="70" />

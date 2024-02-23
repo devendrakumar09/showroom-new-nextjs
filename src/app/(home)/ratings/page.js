@@ -8,7 +8,7 @@ const Rating = () => {
       <h4 className="h4 fw-bold">Rating Given By ME </h4>
     </div>
       <div className="row">
-        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
           <ShopProfile />
         </div>
       </div>

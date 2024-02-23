@@ -11,7 +11,7 @@ const Products = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <div class="container rounded bg-white p-2">
+            <div class="card p-3">
               <div class="d-flex justify-content-between m-2">
                 <div className="heading">
                   <h5 className="text-uppercase">Products <Link href={'/store/products/add'}><FaCirclePlus className="ms-2" /></Link></h5>

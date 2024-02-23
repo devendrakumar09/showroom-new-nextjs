@@ -1,6 +1,5 @@
 import React from 'react'
-import FollowersUI from '@/app/ui/store/customers/Followers'
-import ProfileUi from '@/app/ui/store/settings/profile/Profile'
+
 import UserProfile from '@/app/ui/store/user/UserProfile'
 import Users from '@/app/ui/store/user/users/Users'
 
