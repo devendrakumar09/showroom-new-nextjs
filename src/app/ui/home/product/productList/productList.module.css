@@ -1,0 +1,16 @@
+
+
+.profileImage{
+	border-radius: 10px;
+	border: 2px solid #5957f9;
+}
+.name{
+	font-size: 15px;
+	font-weight: bold;
+	color: #272727;
+	position: relative;
+	top: 8px;
+}
+.rating{
+	font-size: 11px;			
+}

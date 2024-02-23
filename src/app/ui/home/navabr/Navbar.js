@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-import { FaBell, FaCartShopping, FaCircleUser } from 'react-icons/fa6'
+
 import styles from './navbar.module.css'
 import Image from 'next/image'
-import { FcList, FcMindMap, FcPaid, FcShop } from 'react-icons/fc'
+
 const Navbar = () => {
   return (
     <>

@@ -9,7 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
+import styles from './navbar.module.css'
 import { FcAdvertising, FcBusinessman, FcFilledFilter, FcInTransit, FcLike, FcLikePlaceholder, FcList, FcOrgUnit, FcOrganization, FcSettings, FcShipped } from 'react-icons/fc';
 
 const HeaderNavbar = () => {
@@ -67,7 +67,7 @@ const HeaderNavbar = () => {
 
     <>
       {['sm'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="headerNavbar p-3 mb-3">
+        <Navbar key={expand} expand={expand} className={styles.bg +' '+"p-3 mb-3"}>
           <Container fluid >
             <Navbar.Brand href='/' style={{color:'#fff'}}>Local Market</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

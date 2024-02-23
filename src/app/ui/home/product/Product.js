@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './product.module.css'
 import { FaHeart, FaShare, FaStar, FaStarHalf } from 'react-icons/fa6'
 import Link from 'next/link'
+import { BsCart, BsShare } from 'react-icons/bs'
 const ProductNew = () => {
     return (
         <>
@@ -22,8 +23,8 @@ const ProductNew = () => {
                 <div className="d-flex justify-content-between px-3 mb-2">
                     <p className="price">$79.<span className="sm-text">50</span></p>
                     <div className="stars">
-                        <button className="btn btn-dark btn-sm me-1"><FaShare /></button>                    
-                        <button className="btn btn-dark btn-sm px-3">Cart</button>
+                        <button className="btn btn-dark btn-sm me-1"><BsShare /></button>                    
+                        <button className="btn btn-dark btn-sm "><BsCart /></button>
                     </div>
                 </div>
             </div>

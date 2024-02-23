@@ -4,8 +4,8 @@ const Header = () => {
     return (
         <>
 
-            <section className={styles.bg +' '+'shadow-sm'} >
-                <div className="container py-5 ">
+            <section className={styles.bg +' '+'shadow-sm bg-warning'} >
+                <div className="container py-2 ">
                     <div className="row py-lg-5">
                         <div className="col-lg-6 mx-auto text-center">
                             <h1 className="fw-bold display-3">Be vocal for <span className="text-uppercase">local</span> </h1>

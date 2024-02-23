@@ -5,6 +5,8 @@ import ShopBanner from '../ui/home/baners/ShopBanner'
 import Categories from '../ui/home/categories/Categories'
 import ShopProfile from '../ui/home/shop/shopProfile/ShopProfile'
 import Product from '../ui/home/product/Product'
+import ProductList from '../ui/home/product/productList/ProductList'
+import NeoCard from '../ui/store/dashboard/Welcome/NeoCard'
 
 const Home = () => {
   const categoriesArr = [
@@ -97,7 +99,7 @@ const Home = () => {
 
                 {categoriesArr.map(({ id, title, link, icon }) => (
                   <div class="col-lg-3 col-md-4 col-6" key={id}>
-                    <Link className="nav-link" href={link}>                      
+                    <Link className="nav-link" href={link}>
                       <Categories title={title} />
                     </Link>
                   </div>
@@ -110,11 +112,11 @@ const Home = () => {
 
         {/* TRANDIN PRODUC INYOUR CITY */}
 
-        <div class="row justify-content-center mb-4">
+        <div class="row  mb-4">
           <h2 class="font-weight-bold mb-2 mt-4">Top Tranding Product</h2>
           <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
 
-
+          {/* 
           <div class="col-6 col-md-3 col-sm-6 col-xs-6">
             <Product />
           </div>
@@ -158,12 +160,65 @@ const Home = () => {
 
           <div class="col-6 col-md-3 col-sm-6 col-xs-6">
             <Product />
+          </div> */}
+
+          <div className="col-sm-8">
+            <div className="row">
+              <div class="col-6 col-md-4 col-sm-6 col-xs-6">
+                <Product />
+              </div>
+              <div class="col-6 col-md-4 col-sm-6 col-xs-6">
+                <Product />
+              </div>
+              <div class="col-6 col-md-4 col-sm-6 col-xs-6">
+                <Product />
+              </div>
+              <div class="col-6 col-md-4 col-sm-6 col-xs-6">
+                <Product />
+              </div>
+              <div class="col-6 col-md-4 col-sm-6 col-xs-6">
+                <Product />
+              </div>
+              <div class="col-6 col-md-4 col-sm-6 col-xs-6">
+                <Product />
+              </div>
+            </div>
+
           </div>
 
-
+          <div className="col-sm-4">
+            <div className="row">
+              <div className="col-sm-12">
+                <ProductList />
+              </div>
+              <div className="col-sm-12">
+                <ProductList />
+              </div>
+              <div className="col-sm-12">
+                <ProductList />
+              </div>
+              <div className="col-sm-12">
+                <ProductList />
+              </div>
+              <div className="col-sm-12">
+                <ProductList />
+              </div>
+              <div className="col-sm-12">
+                <ProductList />
+              </div>
+              <div className="col-sm-12">
+                <ProductList />
+              </div>
+              <div className="col-sm-12">
+                <ProductList />
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
+
+
     </>
   )
 }

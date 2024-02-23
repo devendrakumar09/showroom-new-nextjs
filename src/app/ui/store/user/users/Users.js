@@ -14,7 +14,7 @@ const Users = () => {
                     </div>
                     <div className="buttons">
                         <button className="btn btn-outline-primary BUTTONS btn-sm me-1">Follow</button>
-                        <button className="btn btn-outline-dark BUTTONS btn-sm me-1">Block</button>
+                        <button className="btn btn-outline-light BUTTONS btn-sm me-1">Block</button>
                     </div>
                 </div>
             </div>

@@ -26,9 +26,9 @@ const Profile = () => {
                             </div>
                         </div>
                         <div className="button mt-3 d-flex flex-row align-items-center">
-                            <button className="btn btn-sm btn-dark w-100">Followers</button>
-                            <button className="btn btn-sm btn-dark w-100 ms-2">Followsing</button>
-                            <button className="btn btn-sm btn-dark w-100 ms-2">Ratings</button>
+                            <button className="btn btn-sm btn-light w-100">Followers</button>
+                            <button className="btn btn-sm btn-light w-100 ms-2">Followsing</button>
+                            <button className="btn btn-sm btn-light w-100 ms-2">Ratings</button>
                         </div>
                     </div>
                 </div>
