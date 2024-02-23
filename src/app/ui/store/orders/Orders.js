@@ -12,7 +12,7 @@ const Orders = () => {
                         <img src="https://i.imgur.com/G1pXs7D.jpg" className={styles.profileImage +' '+'img-fluid'}  width="70" />
                         <div className={styles.about + ' ' + 'd-flex flex-column ms-2 mt-2'}>
                             <span className="font-weight-bold">Madison</span>
-                            <small className='text-sall text-muted'>@username</small>
+                            <small className='small'>@username</small>
                         </div>
                     </div>                    
                     <Link href={'/store/orders/skajsdkaj'} className="btn btn-sm btn-outline-primary follow">View</Link>

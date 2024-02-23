@@ -17,12 +17,12 @@ const Products = () => {
                   <h5 className="text-uppercase">Products <Link href={'/store/products/add'}><FaCirclePlus className="ms-2" /></Link></h5>
                 </div>
                 <div className="search">
-                  <input type="text" name="search" id="" className="form-control w-100" placeholder="Search Products" />
+                  <input type="text" name="search" id="" className="form-control w-100 p-0 m-0" placeholder="Search Products" />
                 </div>
                 <div className="filters">
 
                   <Dropdown>
-                    <Dropdown.Toggle variant="dark btn-sm" id="dropdown-basic">
+                    <Dropdown.Toggle variant="primary btn-sm" id="dropdown-basic">
                       Filter
                     </Dropdown.Toggle>
 
@@ -34,13 +34,11 @@ const Products = () => {
                   </Dropdown>
                 </div>
               </div>
-
-
-
-              <div class="table-responsive">
-                <table class='table'>
+             
+              <div class="table-responsive mt-4 ">
+                <table class='w-100'>
                   <thead>
-                    <tr>
+                    <tr className="">
                       <th scope="col">Title</th>
                       <th scope="col">Order</th>
                       <th scope="col">Stock</th>
@@ -51,7 +49,10 @@ const Products = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    <ProductUi />
+                     <ProductUi />
+                      <ProductUi />
+                       <ProductUi />
+                        <ProductUi />
                   </tbody>
                 </table>
               </div>

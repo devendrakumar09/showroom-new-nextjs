@@ -76,7 +76,7 @@ const Add = () => {
                         <h6 className=''>Thumbnail</h6>
                         <h6 className='text-small'>Drag & Drop File Here</h6>
                         <span>OR</span>
-                        <button type='button'>Browse File</button>
+                        <button type='button text-white'>Browse File</button>
                         <input type="file" hidden />
                       </div>
                     </div>

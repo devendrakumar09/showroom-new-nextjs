@@ -25,8 +25,12 @@ body {
   background-color: var(--bgSoft);
   color: var(--text);
 }
-table{
+.table{
   background-color: var(--bgSoft);
+}
+a{
+  color: var(--text);
+  text-decoration: none;
 }
 /*
  * Sidebar
