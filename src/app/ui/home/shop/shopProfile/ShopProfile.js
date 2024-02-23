@@ -6,7 +6,7 @@ const ShopProfile = () => {
         <>
         
             <Link href={'/shop/jaisdias'} >
-                <div className="card rounded shadow-sm border-0 border">
+                <div className="card rounded ">
                     <div className="card-body p-0">
                         <div className="bg-warning px-5 py-4 text-center card-img-top"><img src="https://bootstrapious.com/i/snippets/sn-cards/teacher-1.jpg" alt="..." width="100" className="rounded-circle mb-2 img-thumbnail d-block mx-auto" />
                             <h5 className="text-white fw-bold mb-0">John Tarly</h5>

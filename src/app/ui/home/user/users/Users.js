@@ -3,7 +3,7 @@ import React from 'react'
 const Users = () => {
     return (
         <>
-            <div className='card p-3 bg-white mb-2'>
+            <div className='card p-3  mb-2'>
                 <div className="d-flex justify-content-between mt-2 align-items-center">
                     <div className="d-flex flex-row">
                         <img src="https://i.imgur.com/o5uMfKo.jpg" className="rounded-circle" width="50" height={50} />

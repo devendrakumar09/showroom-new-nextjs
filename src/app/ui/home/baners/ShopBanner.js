@@ -3,7 +3,7 @@ import React from 'react'
 
 const ShopBanner = () => {
     return (
-        <div className="pricing7 py-5 card">
+        <div className="pricing7 py-5  ">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-md-8 text-center">
@@ -61,7 +61,7 @@ const ShopBanner = () => {
                     </div>
 
                     <div className="col-md-4 ml-auto pricing-box align-self-center">
-                        <div className="card border shadow-sm">
+                        <div className="card border ">
                             <div className="card-body p-4 text-center">
                                 <h5>Master Plan</h5>
                                 <sup>$</sup><span className="text-dark display-5">69</span>

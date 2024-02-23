@@ -9,7 +9,10 @@ function Layout({children, Component, pageProps }) {
       <main >
           <Navbar />    
           {children}
-          <Footer />                   
+          <div className="mt-5">
+            <Footer />
+          </div>
+          
       </main>
     </>
   )

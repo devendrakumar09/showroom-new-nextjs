@@ -3,7 +3,7 @@ import styles from './footer.module.css'
 const Footer = () => {
     return (
         <>
-            <footer class="footer mt-auto py-3 bg-dark">
+            <footer class="footer mt-auto py-3 bg-dark" >
                 <div className="container py-4 text-white">
                     <div className="row gy-4 gx-5">
                         <div className="col-lg-4 col-md-6 text-white">

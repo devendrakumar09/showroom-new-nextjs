@@ -3,7 +3,7 @@ import React from 'react'
 const UserProfile = () => {
     return (
         <>
-            <div className="card rounded shadow-sm border-0">
+            <div className="card rounded ">
                 <div className="card-body p-0">
                     <div className="bg-primary px-5 py-4 text-center card-img-top"><img src="https://bootstrapious.com/i/snippets/sn-cards/teacher-4.jpg" alt="..." width="100" className="rounded-circle mb-2 img-thumbnail d-block mx-auto" />
                         <h5 className="text-white mb-0">Emma Nevoresky</h5>

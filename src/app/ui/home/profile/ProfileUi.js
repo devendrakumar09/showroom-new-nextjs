@@ -1,5 +1,7 @@
+import Link from 'next/link'
 import React from 'react'
 import { BsPlus, BsPlusCircle } from 'react-icons/bs'
+import { FaCirclePlus } from 'react-icons/fa6'
 
 const ProfileUi = () => {
   return (
@@ -15,7 +17,9 @@ const ProfileUi = () => {
           </div>          
         </div>
         <div className="address mt-3">
-          <h6 className="h6 small fw-bold text-uppercase">Address  </h6>
+          <h6 className="text-uppercase">Address
+            <Link href={'#'}><FaCirclePlus className="ms-2" style={{marginTop:'-4px'}}/></Link>
+          </h6>
           <button className="btn btn-dark btn-sm me-1">Office</button>
           <button className="btn btn-dark btn-sm me-1">Home Town 1</button>
           <button className="btn btn-dark btn-sm me-1">Home Town 2</button>          

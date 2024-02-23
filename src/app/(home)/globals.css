@@ -1,13 +1,59 @@
+:root {
+  --primary-light: #8abdff;
+  --primary: #6d5dfc;
+  --primary-dark: #5b0eeb;
+  
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+}
+
+
+
 body {
+    /* background: #f0efe9;
     background: #f0efe9;
-    background: #f0efe9;
+    background-color: #ececec;
+    background-color: #e6e6e6; */
     min-height: 100vh;
+    /* background-color: #EBECF0; */
+    background-color: #eaeaea;    
+
+    /* background: var(--greyLight-1); */
+    
+
 }
 
 a {
     text-decoration: none;
 }
 
+.card {
+    border: 0px;
+    /* background-color: #eceff1;
+     box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+                     10px  10px 15px rgba(70,70,70,0.15);
+
+    box-shadow:-10px -10px 15px 0px #f6f6f6, 10px 10px 15px 0px #cecece; */
+    /* background-color: #FFFFFF;
+    box-shadow:  8px 8px 12px -2px rgba(#484f60, 0.4),
+             -6px -6px 12px -1px rgba(#FFFFFF, 1); */
+
+    /* border: 1px solid #fff;
+    background-color: #f6f5f0;    
+    box-shadow: 9px 9px 16px rgba(189, 189, 189, 0.6),
+        -9px -9px 16px rgba(255, 255, 255, 0.5); */
+
+
+
+
+  box-shadow:.8rem .8rem 1.4rem var(--greyLight-2), 
+            -.2rem -.2rem 1.8rem var(--white);
+  
+  
+}
 
 /* FORM STYLING */
 .form-control {

@@ -10,7 +10,7 @@ const ProductList = () => {
                 <div className="d-flex flex-row text-center">
                     <img src="https://i.imgur.com/G1pXs7D.jpg" className={styles.profileImage + ' ' + 'img-fluid'} width="70" />
                     <div className={styles.about + ' ' + 'd-flex flex-column ms-2 mt-2'}>
-                        <span className="">Madison</span>
+                        <Link href={'#'} className="">Madison</Link>
                         <small className={styles.rating}><BsStar /><BsStar /><BsStar /><BsStar /><BsStar /></small>
                     </div>
                 </div>
