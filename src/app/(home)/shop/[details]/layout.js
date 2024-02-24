@@ -40,53 +40,46 @@ function Layout({ children, Component, pageProps }) {
       title: 'About',
       link: "/shop/sadas/about",
     },
-    
+
 
 
   ];
   return (
     <>
 
-      <div className="container">
+      <div className="container mt-4">
         <div className="row">
           <div className="col-sm-12">
             <div className="col-sm-12">
               <HeaderUi />
             </div>
-
-
-
             {/* SHOP CATEGORIES */}
             <div className="row mt-4">
-
-              <div className="row">
-                {/* <div className="col-xl-10 offset-lg-1 col-lg-10 col-md-12 col-12"> </div>*/}
-                {/* <div className="col-sm-4 mb-4">
-                  <AddReview />
-                </div> */}
-                <div className="col-sm-12">
-                  <div className="row">
-                    <div className="col-sm-12 mb-4 bg-white p-2">
-                      {links.map(({id, title, link }) => (
-
-                      <Link key={id}  href={link} className='btn btn-dark btn-sm me-2'>
-                          {title}
-                        </Link>
+              <div className="col-sm-12">
+                <nav class="py-2 bg-light border-bottom">
+                  <div class="container d-flex flex-wrap">
+                    <ul class="nav me-auto">
+                      {links.map(({ id, title, link }) => (
+                        <li class="nav-item">
+                          <Link key={id} href={link} class="nav-link link-dark px-2">
+                            {title}
+                          </Link>
+                        </li>
                       ))}
-                    </div>
 
-                    <div className="col-sm-12">
-                      {children}
-                    </div>
+                    </ul>
+                    
                   </div>
-                </div>
+                </nav>
+
               </div>
 
-
+              <div className="row mt-4">
+                <div className="col-sm-12">
+                  {children}
+                </div>
+              </div>
             </div>
-
-
-
           </div>
         </div>
       </div>

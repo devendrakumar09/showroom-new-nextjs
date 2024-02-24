@@ -5,7 +5,7 @@ import { FaArrowRight } from 'react-icons/fa6'
 const Card = ({ title, number, link }) => {
   return (
     <>
-      <div class="card mt-3 p-4 text-white shadow-sm">
+      <div class="card mt-3 p-4 text-white">
         <div className="d-flex flex-row justify-content-between text-align-center">
           <h6 class="top mb-1 fw-bolder text-uppercase">{title}</h6>
           <div class="">

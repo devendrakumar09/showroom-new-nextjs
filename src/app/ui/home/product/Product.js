@@ -22,9 +22,9 @@ const ProductNew = () => {
 
                 <div className="d-flex justify-content-between px-3 mb-2">
                     <p className="price">$79.<span className="sm-text">50</span></p>
-                    <div className="stars">
-                        <button className="btn btn-dark btn-sm me-1"><BsShare /></button>                    
-                        <button className="btn btn-dark btn-sm "><BsCart /></button>
+                    <div className="buttons">
+                        <button className="btn btn-outline-dark btn-sm me-1 rounded-pill"><BsShare /></button>                    
+                        <button className="btn btn-outline-dark btn-sm rounded-pill "><BsCart /></button>
                     </div>
                 </div>
             </div>

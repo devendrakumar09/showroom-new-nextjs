@@ -43,7 +43,7 @@ const Dashboard = () => {
                 <Orders />
               </div>
               <div className="col-sm-12 text-center">
-                <Link href={'/store/customers'} className='btn btn-sm btn-dark'>View More</Link>
+                <Link href={'/store/customers'} className='btn btn-sm btn-light'>View More</Link>
               </div>
 
             </div>
@@ -69,7 +69,7 @@ const Dashboard = () => {
                 <Users />
               </div>
               <div className="col-sm-12 text-center">
-                <Link href={'/store/customers'} className='btn btn-sm btn-dark'>View More</Link>
+                <Link href={'/store/customers'} className='btn btn-sm btn-light'>View More</Link>
               </div>
             </div>
 

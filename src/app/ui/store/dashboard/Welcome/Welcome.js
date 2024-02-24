@@ -1,9 +1,10 @@
 import React from 'react'
+import styles from './welcome.module.css'
 
 const Welcome = () => {
   return (
     <>
-      <div class="card p-5 shadow-sm" >
+      <div class={styles.bg+' '+"card p-5 text-dark"} style={{background :'url(/home/images/6.png)'}} >
         <div class="text-end">
           <h5 className='bd-highlight'>Monday</h5>
           <h1 className='bd-highlight'>10:14 

@@ -4,7 +4,7 @@ import styles from './search.module.css'
 const Search = () => {
   return (
     <>
-      <div class={styles.bg +' '+"container-flude p-5 "} style={{background:'url(/home/banners/1.png)'}}>
+      <div class={styles.bg +' '+"container-flude p-5 bg-warning"} >
         <div class="row">
           <header class="text-center">
             <h1 class="display-4 font-weight-bold">Bootstrap Datepicker</h1>

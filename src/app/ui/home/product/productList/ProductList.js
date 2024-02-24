@@ -17,8 +17,9 @@ const ProductList = () => {
                 <div className="col3 d-flex flex-column">
                     <small className="small fw-bold"><BsCurrencyRupee />54154</small>
                     <div className="buttons">
-                        <button className="btn btn-sm btn-outline-dark me-1"><BsShare /></button>
+                        <button className="btn btn-sm btn-outline-dark me-1 "><BsShare /></button>
                         <button className="btn btn-sm btn-outline-dark"><BsCart /></button>
+                        
                     </div>
 
                 </div>

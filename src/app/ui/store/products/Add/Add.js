@@ -111,7 +111,7 @@ const Add = () => {
 
               </div>
 
-              <button type="button" className='btn btn-dark m-4 p-2'>Save</button>
+              <button type="button" className='btn btn-light m-4 p-2'>Save</button>
             </div>
           </div>
         </div>

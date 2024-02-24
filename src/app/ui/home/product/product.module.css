@@ -11,28 +11,6 @@
 }
 
 
-
-
-
-.like {
-    color: #757575;
-    font-weight: bold;
-    background-color: #EEEEEE;
-    padding: 7px;
-    border-radius: 50%;
-    font-size: 40px;
-    float: left;
-}
-
-.like-checked {
-    color: #E53935;
-}
-
-.like:hover {
-    color: #E53935;
-    cursor: pointer;
-}
-
 .pic1 {
     width: 90%;
     margin-left: auto;
@@ -64,9 +42,10 @@
 }
 
 .productName {
-    padding-bottom: 15px;
+    
     font-family: Florence;
     font-weight: bold;
+
 }
 
 .price {

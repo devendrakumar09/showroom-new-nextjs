@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './details.module.css'
 import { FaStar } from 'react-icons/fa6'
+import { BsShare } from 'react-icons/bs'
 
 const Details = () => {
   return (
@@ -39,10 +40,10 @@ const Details = () => {
               </div>
               <h3>$430.99</h3>
               <div className={styles.ratings + ' ' + "d-flex flex-row align-items-center"}>
-                <div className="d-flex flex-row"> 
+                <div className="d-flex flex-row">
                   <FaStar />
-                  <FaStar />                  
-                  <FaStar />                  
+                  <FaStar />
+                  <FaStar />
                   <FaStar />
                 </div>
                 <span>441 reviews</span>
@@ -60,7 +61,10 @@ const Details = () => {
               </div>
               <div className={styles.buttons + ' ' + "d-flex flex-row mt-5 gap-3"}>
                 <button className="btn btn-outline-dark">Buy Now</button>
-                <button className="btn btn-dark">Add to Basket</button> </div>
+                <button className="btn btn-dark">Add to Basket</button>
+                <button className="btn btn-outline-dark btn-sm me-1 rounded-pill"><BsShare /></button>
+                
+              </div>
             </div>
           </div>
         </div>
