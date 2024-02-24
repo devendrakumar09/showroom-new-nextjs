@@ -1,27 +1,27 @@
 import React from 'react'
 import { BsStar, BsStarFill, BsStarHalf } from 'react-icons/bs'
-
+import styles from './reviews.module.css'
+import { FaStar } from 'react-icons/fa6'
 const Reviwes = () => {
-    return (
-        <>
-            <div className="card mt-5 mb-3 p-4">
-                <div className="d-flex flex-row justify-content-between align-items-center">
-                    <div className="rating">
-                        <BsStarFill />
-                        <BsStarFill />
-                        <BsStarFill />
-                        <BsStarHalf />
-                        <BsStar />
-                    </div>
-                    <small className="text-muted">2 Days Ago</small>
-                </div>
-                <h5 className="mt-3">Figma Design Tool</h5>
-                <p className="text-muted">
-                    Our elite teams build apps, responsive websites, bots any digital product that interacts with users for the world's leading companies.
-                </p>
+  return (
+    <>
+      <div className='card p-3 mb-2'>
+        <div className="d-flex justify-content-between mt-2 align-items-center">
+          <div className="d-flex flex-row">
+            <img src="https://i.imgur.com/o5uMfKo.jpg" className="rounded-circle" width="50" height={50} />
+            <div className={styles.about + ' ' + 'd-flex flex-column ms-2 '}>
+              <span className="fw-bolder mt-2">Madison</span>
+              <small className='small'><FaStar /><FaStar /><FaStar /><FaStar /><FaStar /> <span className="ms-2 small text-muted">2 Days Ago</span></small>
+              <p className="p small ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
-        </>
-    )
+          </div>
+          <div className="buttons">
+            <button className="btn btn-light BUTTONS btn-sm me-1">Dell</button>
+          </div>
+        </div>
+      </div>
+    </>
+  )
 }
 
 export default Reviwes

@@ -19,11 +19,11 @@ const Products = () => {
                 <td className="pt-3">Pending</td>
                 
                 <td className="pt-3">
-                    <buttob className="btn btn-sm btn-primary">
+                    <buttob className="btn btn-sm btn-light">
                         <span className="small">Edit</span>
                     </buttob>
 
-                    <buttob className="btn btn-sm btn-primary ms-2">
+                    <buttob className="btn btn-sm btn-danger ms-2">
                         <span className="small">Dell</span>
                     </buttob>
                 </td>

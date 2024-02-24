@@ -11,7 +11,7 @@ const Details = () => {
             <ProductDetails />
           </div>          
         </div>
-        <div className="row reviews">
+        <div className="row reviews mt-2">
           <div className="col-sm-8">
             <Reviwes />
           </div>
