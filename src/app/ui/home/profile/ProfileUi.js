@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { BsPlus, BsPlusCircle } from 'react-icons/bs'
@@ -14,15 +15,23 @@ const ProfileUi = () => {
               <span className="font-weight-bold">Madison alex Aol</span>
               <small className='text-sall text-muted'>@username</small>
             </div>
-          </div>          
+          </div>
         </div>
+        <Link href={'/store'}>
+          <div className="store_management bg-warning rounded p-2 mt-2 d-flex justify-content-start">
+
+            <Image src={'/home/icons/stor-management.png'} height={30} width={30} className='' />
+            <h6 className="h6 strong ms-2 mt-1 fw-bold text-white">Store Management</h6>
+
+          </div>
+        </Link>
         <div className="address mt-3">
           <h6 className="text-uppercase">Address
-            <Link href={'#'}><FaCirclePlus className="ms-2" style={{marginTop:'-4px'}}/></Link>
+            <Link href={'#'}><FaCirclePlus className="ms-2" style={{ marginTop: '-4px' }} /></Link>
           </h6>
           <button className="btn btn-dark btn-sm me-1">Office</button>
           <button className="btn btn-dark btn-sm me-1">Home Town 1</button>
-          <button className="btn btn-dark btn-sm me-1">Home Town 2</button>          
+          <button className="btn btn-dark btn-sm me-1">Home Town 2</button>
         </div>
       </div>
     </>

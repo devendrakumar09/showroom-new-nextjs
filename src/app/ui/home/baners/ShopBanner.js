@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
@@ -61,11 +62,10 @@ const ShopBanner = () => {
                     </div>
 
                     <div className="col-md-4 ml-auto pricing-box align-self-center">
-                        <div className="card border ">
-                            <div className="card-body p-4 text-center">
-                                <h5>Master Plan</h5>
-                                <sup>$</sup><span className="text-dark display-5">69</span>
-                                <h6 className="font-weight-light font-14">YEARLY</h6>
+                        <div className="card p-4">
+                            <div className=" text-center">                                
+                                <Image src={'/home/icons/add-store.png'} height={100} width={100} alt='store image' />
+                                <h5 className='fw-bold'>Create  Store</h5>
                                 <p className="mt-4">The Master license allows you to customize, store and even host your website
                                     using your platform</p>
                             </div>
