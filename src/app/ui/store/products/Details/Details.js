@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './details.module.css'
-import { BsPen, BsStar, BsStarFill, BsStarHalf } from 'react-icons/bs'
-import { Reviwes } from '../reviwes/Reviwes'
 import { FaStar } from 'react-icons/fa6'
 const Details = () => {
   return (
@@ -47,17 +45,7 @@ const Details = () => {
                 </div>
                 <span>441 reviews</span>
               </div>
-              <div className="mt-5"> <span className="fw-bold">Color</span>
-                <div className={styles.colors}>
-                  <ul id="marker">
-                    <li id="marker-1"></li>
-                    <li id="marker-2"></li>
-                    <li id="marker-3"></li>
-                    <li id="marker-4"></li>
-                    <li id="marker-5"></li>
-                  </ul>
-                </div>
-              </div>
+              
               <div className={styles.buttons + ' ' + "d-flex flex-row mt-5 gap-3"}>                
                 <button className="btn btn-light">Delete</button>
                 

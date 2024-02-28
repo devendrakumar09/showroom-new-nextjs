@@ -1,6 +1,7 @@
 import React from 'react'
 import RatingUi from '@/app/ui/store/settings/ratings/Rating'
 import Reviews from '@/app/ui/store/reviews/Reviews'
+
 const Rating = () => {
   return (
     <>
